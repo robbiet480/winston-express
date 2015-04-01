@@ -5,9 +5,16 @@
   "version": "0.1.0",
   "main": "index.js",
   "keywords": ["winston", "logging", "client-log"],
-  "contributors": {
-    "name": "Kersten Burkhardt <burkhardt@mhp-net.de>"
-  },
+  "contributors": [
+      {
+          "name": "Kersten Burkhardt",
+          "email": "burkhardt@mhp-net.de"
+      },
+      {
+          "name": "Chasen Le Hara",
+          "email": "clehara@icginfo.com"
+      }
+  ],
   "dependencies": {
     "uglify-js": "~2.x"
   },

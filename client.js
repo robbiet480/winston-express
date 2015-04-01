@@ -10,7 +10,7 @@
   "use strict";
 
   var levels = {LEVELS:LEVELS};
-  var console = console;
+  var console = window.console;
   var Winston = new Function();
 
   Winston.log = function(level, message, meta) {
