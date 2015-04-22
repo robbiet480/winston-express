@@ -29,8 +29,11 @@
 
     // log it to the browser console
     if (typeof console !== 'undefined') {
-      level = (console[level] ? level : 'log');
-      console[level](level + ': ' + message);
+      if(typeof console[level] !== 'undefined') {
+        console[level](message);
+      } else {
+        console.log(level + ': ' + message);
+      }
     }
   };
 
